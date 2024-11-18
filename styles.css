@@ -5,27 +5,29 @@ body {
   margin: 0;
   padding: 0;
   color: black; /* Color negro para texto y números */
-  background-color: white; /* Fondo blanco */
+  background-color: transparent; /* Fondo del cuerpo transparente */
 }
 
 #countdown {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20vh; /* Centrado vertical */
+  gap: 15px; /* Espaciado reducido entre los bloques */
+  margin-top: 25vh; /* Ajuste para centrar verticalmente */
 }
 
 #countdown div {
   text-align: center;
+  background-color: transparent; /* Fondo transparente */
 }
 
 #countdown span {
-  font-size: 4rem;
+  font-size: 3.2rem; /* Reducido un 20% (antes 4rem) */
   font-weight: bold;
   display: block;
 }
 
 #countdown p {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reducido un 20% (antes 1.2rem) */
   margin: 0;
 }
+
