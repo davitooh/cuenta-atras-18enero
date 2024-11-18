@@ -11,8 +11,8 @@ body {
 #countdown {
   display: flex;
   justify-content: center;
-  gap: 15px; /* Espaciado reducido entre los bloques */
-  margin-top: 25vh; /* Ajuste para centrar verticalmente */
+  gap: 12px; /* Espaciado más reducido entre los bloques */
+  margin-top: 30vh; /* Ajuste para centrar verticalmente */
 }
 
 #countdown div {
@@ -21,13 +21,12 @@ body {
 }
 
 #countdown span {
-  font-size: 3.2rem; /* Reducido un 20% (antes 4rem) */
+  font-size: 2.8rem; /* Reducido más (antes 3.2rem) */
   font-weight: bold;
   display: block;
 }
 
 #countdown p {
-  font-size: 1rem; /* Reducido un 20% (antes 1.2rem) */
+  font-size: 0.9rem; /* Reducido más (antes 1rem) */
   margin: 0;
 }
-
